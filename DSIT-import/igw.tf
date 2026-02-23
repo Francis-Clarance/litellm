@@ -1,0 +1,1 @@
+# resource "aws_internet_gateway" "dsit-llmlite-gateway-main-igw" {}

@@ -1,0 +1,6 @@
+resource "aws_ecr_repository" "litellm" {
+  name                 = "litellm"
+  image_tag_mutability = "MUTABLE"
+  image_scanning_configuration { scan_on_push = true }
+  lifecycle { ignore_changes = [tags] }
+}
