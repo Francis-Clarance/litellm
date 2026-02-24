@@ -1,2 +1,0 @@
-# litellm
-Terraform(litellm IaC)
